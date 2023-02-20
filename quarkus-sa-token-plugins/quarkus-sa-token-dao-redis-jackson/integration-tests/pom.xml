@@ -8,6 +8,9 @@
     </parent>
     <artifactId>quarkus-sa-token-dao-redis-jackson-integration-tests</artifactId>
     <name>Quarkus - Satoken Dao Redis Jackson - Integration Tests</name>
+    <properties>
+        <maven.deploy.skip>true</maven.deploy.skip>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>io.quarkus</groupId>

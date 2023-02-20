@@ -9,6 +9,9 @@
   <artifactId>quarkus-sa-token-dao-alone-redis-integration-tests</artifactId>
   <name>Quarkus Satoken Dao Alone Redis - Integration Tests</name>
   <properties>
+    <maven.deploy.skip>true</maven.deploy.skip>
+  </properties>
+  <properties>
     <skipITs>true</skipITs>
   </properties>
   <dependencies>

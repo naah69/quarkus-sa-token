@@ -18,6 +18,9 @@
         <module>quarkus-sa-token-sso2-client</module>
         <module>quarkus-sa-token-sso3-client</module>
     </modules>
+    <properties>
+        <maven.deploy.skip>true</maven.deploy.skip>
+    </properties>
 
 </project>
 
